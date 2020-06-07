@@ -18,6 +18,7 @@ module.exports = {
   rules: {
     '@typescript-eslint/explicit-function-return-type': ['error'],
     '@typescript-eslint/typedef': ['error'],
-    '@typescript-eslint/strict-boolean-expressions': 'off'
+    '@typescript-eslint/strict-boolean-expressions': 'off',
+    'no-unused-vars': 'off'
   }
 }
