@@ -1,7 +1,8 @@
 module.exports = {
   env: {
     es2020: true,
-    node: true
+    node: true,
+    jest: true
   },
   extends: [
     'standard'
@@ -15,5 +16,7 @@ module.exports = {
     '@typescript-eslint'
   ],
   rules: {
+    '@typescript-eslint/explicit-function-return-type': ['error'],
+    '@typescript-eslint/typedef': ['error']
   }
 }
